@@ -1,0 +1,296 @@
+section {
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+section .section_border {
+  display: flex;
+  width: 1200px;
+  height: 340px;
+
+  margin-top: 35px;
+}
+
+.section__login {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.section__login form {
+  height: 220px;
+  width: 370px;
+  padding: 17px;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.total_info {
+  display: flex;
+  justify-content: center;
+}
+
+.total_info button {
+  outline: none;
+
+  width: 120px;
+  height: 80px;
+  margin-left: 5px;
+
+  background: #0d8cdd;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.total_info button:hover {
+  cursor: pointer;
+  background: #0d75b6;
+}
+
+.login_info {
+  width: 210px;
+}
+
+.login_info input {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 210px;
+  height: 38px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.section__login form > button {
+  display: flex;
+  align-items: center;
+  width: 335px;
+  height: 35px;
+  cursor: pointer;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.section__login form > button span:first-child {
+  color: #1ec800;
+
+  font-size: 25px;
+  font-weight: 900;
+  padding: 7px;
+}
+
+.section__login form > button div {
+  display: flex;
+  height: 20px;
+  width: 1px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.section__login form > button span:last-child {
+  width: 100%;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.section__login .id_save-check {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 5px;
+}
+
+.section__login .id_save-check span {
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.info_find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 30px;
+}
+
+.info_find a {
+  font-size: 13px;
+}
+
+.info_find a::after {
+  content: "|";
+  opacity: 0.32;
+  margin: 0 5px;
+}
+
+.info_find a:last-child {
+  color: #23527c;
+  font-weight: bold;
+}
+
+.info_find a:last-child:after {
+  content: "";
+}
+
+.section__login > button {
+  width: 370px;
+  height: 50px;
+  background: #434c53;
+  color: white;
+  font-size: 18px;
+
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+}
+
+.section__goto-site {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__goto-site .site_add {
+  display: flex;
+}
+
+.section__goto-site .site_add input {
+  padding: 20px;
+  width: 680px;
+  height: 77px;
+
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.section__goto-site .site_add div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 120px;
+  height: 77px;
+
+  background: #0d8cdd;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section__goto-site .site_add div i {
+  font-size: 30px;
+}
+
+.section__goto-site .site_add div:hover {
+  background: #0d75b6;
+  cursor: pointer;
+}
+
+.banner {
+  background: url("../images/find-service.png");
+  background-size: cover;
+  width: 800px;
+  height: 170px;
+  background-color: #d4f1ff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 500;
+
+  transition: 0.2s ease-in-out;
+}
+
+.banner:hover {
+  cursor: pointer;
+  background-color: #c0deee;
+}
+
+.section_bottom {
+  width: 100%;
+  height: 450px;
+  background: #f9f9f9;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_bottom h1 {
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+.section_bottom > span:nth-child(2) {
+  margin-bottom: 5px;
+}
+
+.section_bottom__btns button {
+  padding: 20px 35px;
+  color: white;
+  background: #0d8cdd;
+
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+
+  margin: 30px 0;
+}
+
+.section_bottom__btns button:hover {
+  background: #0d75b6;
+  cursor: pointer;
+}
+
+.underline {
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.home_info {
+  margin-top: 30px;
+
+  display: flex;
+
+  font-size: 20px;
+}
+
+.home_info .pohe {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.home_info .pohe span:first-child {
+  font-size: 15px;
+}
+
+.home_info .pohe span:last-child {
+  font-size: 25px;
+  opacity: 0.8;
+}
+
+.home_info .inquiry {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.home_info .inquiry span {
+  margin-bottom: 10px;
+}
